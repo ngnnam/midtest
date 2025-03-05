@@ -9,7 +9,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="surfside media" />
+    <meta name="" content="" />
     <link rel="shortcut icon" href="{{ asset ('assets/images/favicon.ico')}}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link
@@ -310,7 +310,7 @@
                 <a href="{{route('home.index')}}" class="navigation__link">Home</a>
               </li>
               <li class="navigation__item">
-                <a href="shop.html" class="navigation__link">Shop</a>
+                <a href="{{route('shop.index')}}" class="navigation__link">Shop</a>
               </li>
               <li class="navigation__item">
                 <a href="cart.html" class="navigation__link">Cart</a>
@@ -399,7 +399,7 @@
                 <a href="{{route('home.index')}}" class="navigation__link">Home</a>
               </li>
               <li class="navigation__item">
-                <a href="shop.html" class="navigation__link">Shop</a>
+                <a href="{{route('shop.index')}}" class="navigation__link">Shop</a>
               </li>
               <li class="navigation__item">
                 <a href="cart.html" class="navigation__link">Cart</a>
@@ -510,10 +510,10 @@
           <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
             <div class="logo">
               <a href="{{route('home.index')}}">
-                <img src="{{asset('')}}" alt="SurfsideMedia" class="logo__image d-block" />
+                <img src="{{asset('')}}" alt="" class="logo__image d-block" />
               </a>
             </div>
-            <p class="footer-address">123 Beach Avenue, Surfside City, CA 00000</p>
+            <p class="footer-address">123 Beach Avenue, H City, CA 00000</p>
             <p class="m-0"><strong class="fw-medium">contact@surfsidemedia.in</strong></p>
             <p><strong class="fw-medium">+1 000-000-0000</strong></p>
   
@@ -612,7 +612,7 @@
   
       <div class="footer-bottom">
         <div class="container d-md-flex align-items-center">
-          <span class="footer-copyright me-auto">©2024 Surfside Media</span>
+          <span class="footer-copyright me-auto"></span>
           <div class="footer-settings d-md-flex align-items-center">
             <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms-conditions.html">Terms &amp;
               Conditions</a>

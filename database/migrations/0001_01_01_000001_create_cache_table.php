@@ -1,3 +1,4 @@
+php artisan migrate:fresh
 <?php
 
 use Illuminate\Database\Migrations\Migration;
